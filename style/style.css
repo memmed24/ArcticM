@@ -1,0 +1,237 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Ultra', serif;
+	color: white;
+	background-color: black;
+}
+p{
+	padding: 0px;
+	margin:0px;
+	display: inline-block;
+	font-size: 50px;
+}
+.header{
+	height: 150px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+}
+.bottomHeader{
+	background-color: black;
+	color: white;
+}
+.listHeight{
+	height: 50px;
+}
+.list{
+	width: 100%;
+	background-color: black;
+}
+.list1 ul {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.list1 ul li{
+    display: inline-block;
+    height: 48px;
+    line-height: 3;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.list1 ul li:hover{
+	cursor: pointer;
+	border-bottom: 3px solid white;
+	text-shadow: 0px 0px 3px gray;
+}
+.slider{
+	height: 650px;
+	width: 100%;
+}
+.slider1{
+	height: 650px;
+	width: 100%;
+	background-image: url('https://67.media.tumblr.com/2f95b23a943a6b65cb8fe1494e70d297/tumblr_n6wikuWpjd1t891vfo1_500.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.slider a{
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+.slider2{
+	height: 650px;
+	width: 100%;
+	background-color: black;
+	transition: 250ms;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -650px;
+	text-align: center;
+}
+.slider2 a{
+	line-height: 13
+}
+
+.slider:hover .slider2{
+    opacity: 0.6;
+    background-color: black;
+}
+
+.coming{
+	height: 200px;
+	width: 100%;
+	background-image: url('http://www.hiltonaffiliates.com/assets/img/coming-soon-stamp.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.A{
+	animation: A  linear;
+	animation-delay: 350ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.R{
+	animation: A linear;
+	animation-duration:250ms;
+	animation-delay: 700ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.C{
+	animation: A linear;
+	animation-duration: 250ms;
+	animation-delay: 1050ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.T{
+	animation: A linear;
+	animation-duration: 250ms;
+	animation-delay: 1400ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.I{ 
+	animation: A linear;
+	animation-duration: 250ms;
+	animation-delay: 1750ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.C1{
+	animation: A linear;
+	animation-duration: 250ms;
+	animation-delay: 2100ms;
+	animation-iteration-count: 1;
+}
+@keyframes A{
+    from{
+    	transform: scale(6);
+    }
+}
+.M{
+	animation: B  linear;
+	animation-delay: 300ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.O{
+	animation: B  linear;
+	animation-delay: 600ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.N{
+	animation: B  linear;
+	animation-delay: 900ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.K{
+	animation: B  linear;
+	animation-delay: 1200ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.E{
+	animation: B  linear;
+	animation-delay: 1500ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.Y{
+	animation: B  linear;
+	animation-delay: 1800ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
+.S{
+	animation: B  linear;
+	animation-delay: 2100ms;
+	animation-duration: 250ms;
+	animation-iteration-count: 1;
+}
+@keyframes B{
+    from{
+    	transform: scale(6);
+    }
+}
